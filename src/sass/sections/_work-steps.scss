@@ -38,13 +38,17 @@
   height: $image-size;
   margin-right: 100px;
   align-self: flex-end;
-  box-shadow: 5px 16px 30px -8px rgba(0,0,0,0.5);
+  overflow: hidden;
+  box-shadow: -3px 57px 63px -46px rgba(0,0,0,0.49);
+  border-radius: 45px;
 
   img {
-    display: inline-block;
-    width: $image-size;
-    height: $image-size;
+    display: block;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    z-index: 100;
+    clip-path: url('#img-shape');
   }
 
   .work-steps__step__img__no {
