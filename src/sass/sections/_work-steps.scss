@@ -7,7 +7,8 @@
   margin-bottom: 86px;
   position: relative;
 
-  .shape-img {
+  &::after {
+    content: '';
     position: absolute;
     width: $image-size;
     height: $image-size;
@@ -20,7 +21,8 @@
   }
 
   &:nth-child(2n - 1) {
-    .shape-img {
+    &::after {
+      content: '';
       position: absolute;
       width: $image-size;
       height: $image-size;
