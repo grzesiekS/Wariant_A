@@ -1,5 +1,20 @@
 .how-we-work {
-  padding-top: 85.8px;
+  padding-top: 86px;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 85vh;
+    background-color: $how-we-work-before-color;
+    z-index: -100;
+    top: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 15vh solid $bg-color;
+    border-left: 100vw solid transparent;
+  }
 }
 
 .how-we-work__title {
@@ -23,14 +38,15 @@
 
     li {
       position: relative;
-      padding-left: 1em;
+      padding-left: 0.7em;
 
       &::before {
         content: '• ';
         position: absolute;
-        font-size: 30px;
+        font-size: 27px;
         color: $list-bullet-color;
         left: 0;
+        top: -1px;
       }
     }
   }
