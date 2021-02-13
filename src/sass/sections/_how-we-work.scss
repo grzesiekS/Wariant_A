@@ -4,16 +4,15 @@
   &::before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 67vh;
     background-color: $how-we-work-before-color;
     z-index: -100;
     top: 122px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
     border-bottom: 20vh solid $bg-color;
-    border-left: 99vw solid transparent;
+    border-left: 100vw solid transparent;
     opacity: 0.6;
   }
 }
