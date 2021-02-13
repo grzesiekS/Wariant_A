@@ -1,0 +1,53 @@
+.main-header {
+  position: relative;
+  max-width: 1560px;
+  margin: 34px auto 36px;
+}
+
+.main-header__logo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.main-header__navbar {
+  align-self: center;
+  font-weight: 500;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 50px;
+  }
+}
+
+.main-header__phone {
+  align-self: center;
+  margin-left: 42px;
+  font-weight: 500;
+
+  .lnr-phone-handset {
+    display: inline-block;
+    margin-right: 3px;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 7px;
+  }
+
+  p {
+    display: inline-block;
+    margin: 0;
+    align-self: center;
+  }
+}
+
+@media (max-width: 1560px) {
+  .main-header {
+    margin: 34px 9vw 36px;
+  }
+}
