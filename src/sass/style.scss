@@ -4,5 +4,12 @@
 @import "layout";
 
 @import "./components/link";
+@import "./components/button";
 
 @import "./sections/header";
+
+body {
+  color: $text-color;
+  font-family: $font-main;
+  font-size: 18px;
+}
