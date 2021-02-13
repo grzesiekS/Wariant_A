@@ -1,17 +1,18 @@
 .how-we-work {
   padding-top: 86px;
+  position: relative;
 
   &::before {
     content: '';
     position: absolute;
     width: 100vw;
-    height: 67vh;
+    height: 160%;
     background-color: $how-we-work-before-color;
     z-index: -100;
-    top: 122px;
+    top: 0;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border-bottom: 20vh solid $bg-color;
+    border-bottom: 15vh solid $bg-color;
     border-left: 100vw solid transparent;
     opacity: 0.6;
   }
