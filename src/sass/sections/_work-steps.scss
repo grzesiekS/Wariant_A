@@ -35,6 +35,21 @@
     }
   }
 
+  &:last-child {
+    &::before {
+      content: '';
+      position: absolute;
+      right: -450px;
+      top: -95px;
+      width: 550px;
+      height: 550px;
+      background-color: $img-shape-large-bg-color;
+      opacity: 0.14;
+      z-index: -75;
+      clip-path: url('#img-shape-large');
+    }
+  }
+
   &:nth-child(2n) {
     flex-direction: row-reverse;
 
