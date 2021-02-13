@@ -1,0 +1,30 @@
+.work-step {
+  margin-top: 86px;
+}
+
+.work-step__step {
+  flex: 100%;
+  margin-bottom: 86px;
+
+  img {
+    flex: 50%;
+    max-width: 270px;
+    max-height: 270px;
+    margin-right: 100px;
+  }
+}
+
+.work-step__description {
+  flex: 50%;
+
+  p {
+    line-height: 27px;
+    margin: 20px 0 30px;
+  }
+}
+
+.work-step__subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
