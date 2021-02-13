@@ -23,14 +23,15 @@
 
     li {
       position: relative;
-      padding-left: 1em;
+      padding-left: 0.7em;
 
       &::before {
         content: '• ';
         position: absolute;
-        font-size: 30px;
+        font-size: 27px;
         color: $list-bullet-color;
         left: 0;
+        top: -1px;
       }
     }
   }
