@@ -5,15 +5,17 @@
   &::before {
     content: '';
     position: absolute;
-    width: 100vw;
+    width: 104vw;
     height: 85vh;
     background-color: $how-we-work-before-color;
     z-index: -100;
     top: 0;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    left: -2vw;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
     border-bottom: 15vh solid $bg-color;
-    border-left: 100vw solid transparent;
+    border-left: 104vw solid transparent;
   }
 }
 

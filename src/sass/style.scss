@@ -8,10 +8,12 @@
 
 @import "./sections/header";
 @import "./sections/how-we-work";
+@import "./sections/work-steps";
 
 body {
   color: $text-color;
   font-family: $font-main;
   font-size: 18px;
   background-color: $bg-color;
+  overflow-x: hidden;
 }
