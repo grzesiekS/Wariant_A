@@ -5,17 +5,17 @@
   &::before {
     content: '';
     position: absolute;
-    width: 104vw;
-    height: 85vh;
+    width: 100vw;
+    height: 215%;
     background-color: $how-we-work-before-color;
     z-index: -100;
     top: 0;
-    left: -2vw;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
-    border-bottom-left-radius: 60px;
+    left: 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
     border-bottom: 15vh solid $bg-color;
-    border-left: 104vw solid transparent;
+    border-left: 100vw solid transparent;
   }
 }
 
@@ -50,6 +50,19 @@
         left: 0;
         top: -1px;
       }
+    }
+  }
+}
+
+@media(max-width: 830px) {
+  .how-we-work {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .how-we-work__description {
+    p {
+      text-align: center;
     }
   }
 }
