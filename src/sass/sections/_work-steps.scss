@@ -106,3 +106,13 @@
   }
 }
 
+@media (max-width: 1350px) {
+  .work-steps__step {
+    &:last-child {
+      &::before {
+        content: none;
+      }
+    }
+  }
+}
+
