@@ -89,3 +89,40 @@
     display: inline-block;
   }
 }
+
+@media (max-width: 640px) {
+  .main-header {
+    .flexbox {
+      flex-direction: column;
+    }
+
+    text-align: center;
+  }
+
+  .main-header__navbar {
+    ul {
+      left: 50%;
+      transform: translate(-50%);
+      z-index: 100;
+    }
+  }
+
+  .main-header__phone {
+    margin: 0 0 25px;
+  }
+
+  .collapse_nav {
+    margin: 0;
+  }
+
+  .main-header__button {
+    width: 70%;
+    margin: 50px auto 25px;
+  }
+
+  .main-header__logo {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
