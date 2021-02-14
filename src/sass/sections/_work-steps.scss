@@ -179,6 +179,12 @@
         left: 30%;
       }
     }
+    
+    &:nth-child(2n) {
+      .work-steps__step__img {
+        margin: 0 0 50px;
+      }
+    }
   }
 
   .work-steps__description {
@@ -187,7 +193,8 @@
   }
 
   .work-steps__step__img {
-    margin: 0;
+    margin: 0 0 50px;
   }
+
 }
 
