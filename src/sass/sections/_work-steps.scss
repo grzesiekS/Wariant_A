@@ -15,7 +15,7 @@
     background-color: $image-shape-2n-child-bg-color;
     right: -35px;
     top: 20px;
-    clip-path: url('#img-shape');
+    clip-path: path($img-shape);
     z-index: -50;
     transform: scale(-1);
   }
@@ -29,7 +29,7 @@
       background-color: $bg-color;
       left: -30px;
       top: -13px;
-      clip-path: url('#img-shape');
+      clip-path: path($img-shape);
       z-index: -50;
       transform: scaleX(-1);
     }
@@ -46,7 +46,7 @@
       background-color: $img-shape-large-bg-color;
       opacity: 0.14;
       z-index: -75;
-      clip-path: url('#img-shape-large');
+      clip-path: path($img-shape-large);
     }
   }
 
@@ -91,7 +91,7 @@
     height: 100%;
     object-fit: cover;
     z-index: 100;
-    clip-path: url('#img-shape');
+    clip-path: path($img-shape);
   }
 
   .work-steps__step__img__no {
